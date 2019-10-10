@@ -129,4 +129,37 @@ Plugins
     Dependencies
     
     
-        
+cd maven/bin
+
+    m2.conf		
+    
+    mvn	
+    
+        ./mvn -version	
+    
+    mvn.cmd		
+    
+    mvnDebug	
+    
+    mvnDebug.cmd	
+    
+    mvnyjp
+    
+Mac Install
+
+    vi ./bash_profile
+    
+```text
+M2_HOME='/Users/girmaenigusse/Development/maven'
+export M2_HOME
+
+export PATH="$PATH:$M2_HOME/bin"
+```
+
+    echo $M2_HOME
+    
+    mvn -version
+    
+Example source code
+
+    github
